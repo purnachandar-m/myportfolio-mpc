@@ -267,7 +267,7 @@ function App() {
           <div className="hero-art">
             <img
               className="portrait-photo"
-              src="/purnachandar.png"
+              src={`${import.meta.env.BASE_URL}purnachandar.png`}
               alt="Motam Purnachandar seated in front of a MOVE AT YOUR PACE poster"
               width="1122"
               height="1402"
